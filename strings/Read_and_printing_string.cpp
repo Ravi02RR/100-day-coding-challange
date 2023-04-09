@@ -1,4 +1,5 @@
-// Here is an example code block that reads a string from standard input and prints it to the standard output in C++:
+// Here is an example code block that reads a 
+//string from standard input and prints it to the standard output in C++:
 
 // #include <iostream>
 // #include <string>
@@ -13,7 +14,12 @@
 //     return 0;
 // }
 
-// This code declares a string s and prompts the user to enter a string using the cout object and the getline function. The input string is then printed to the standard output using the cout object again. The getline function reads the entire line of input, including any whitespace characters, and stores it in the string s. The using namespace std; statement is used to signify that we are using the standard library in our program.
+// This code declares a string s and prompts the user to enter a 
+//string using the cout object and the getline function. \
+//The input string is then printed to the standard output using the cout object again. 
+//The getline function reads the entire line of input, including any whitespace characters,
+//and stores it in the string s. 
+//The using namespace std; statement is used to signify that we are using the standard library in our program.
 
 // #include <iostream>
 
