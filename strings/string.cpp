@@ -1,4 +1,9 @@
-// In C++, a string is a sequence of characters. It is represented by the std::string class, which is part of the standard library. A string object can be constructed using a string literal or by copying another string object. It is mutable, meaning that you can modify the individual characters in a string. The string class also provides a wide range of member functions to manipulate strings such as concatenation, substring, size, find, replace, and much more. Here is an example:
+// In C++, a string is a sequence of characters. 
+//It is represented by the std::string class, which is part of the standard library. 
+//A string object can be constructed using a string literal or by copying another string object. 
+//It is mutable, meaning that you can modify the individual characters in a string. 
+//The string class also provides a wide range of member functions to manipulate 
+//strings such as concatenation, substring, size, find, replace, and much more. Here is an example:
 
 // #include <iostream>
 // #include <string>
