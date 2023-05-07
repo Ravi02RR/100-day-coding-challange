@@ -7,6 +7,24 @@ private:
     int breath;
 
 public:
+    Rectangle()
+    {
+        length = 1;
+        breath = 1;
+    }
+    Rectangle(int l, int b)
+    {
+        setLength(l);
+        setBreadth(b);
+    }
+
+    // copy constructor
+    Rectangle(Rectangle &r)
+    {
+        length = r.length;
+        breath = r.breath;
+    }
+
     void setLength(int l)
     {
         if (l < 0)
@@ -53,16 +71,9 @@ public:
 int main()
 
 {
-    Rectangle R1;
-    // R1.length = 10;
-    // R1.breath = 12;
+    Rectangle r1(10, 5);
+    Rectangle r2(r1);
+    cout << r1.area() << endl;
 
-    R1.setLength(-10);
-    R1.setBreadth(12);
-
-    cout << R1.area() << endl;
-    cout << "area of rectangle is " << R1.area() << endl;
-    cout << "length of rectsnglr is" << R1.getLEngth() << endl;
-    cout << "perimertere of rectangle is " << R1.perimetre() << endl;
     return 0;
 }

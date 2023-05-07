@@ -7,6 +7,13 @@ public:
     int breath;
     int area()
     {
+        if (length < 0)
+        {
+            length = 1;
+        }
+        else
+            length = length;
+
         return length * breath;
     }
 
@@ -20,7 +27,7 @@ int main()
 
 {
     Rectangle R1;
-    R1.length = 10;
+    R1.length = -10;
     R1.breath = 12;
 
     cout << "area of rectangle is " << R1.area() << endl;
