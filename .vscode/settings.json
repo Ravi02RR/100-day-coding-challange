@@ -41,6 +41,10 @@
     "list": "cpp",
     "deque": "cpp",
     "string": "cpp",
-    "vector": "cpp"
+    "vector": "cpp",
+    "algorithm": "cpp",
+    "array": "cpp",
+    "initializer_list": "cpp",
+    "utility": "cpp"
   }
 }
