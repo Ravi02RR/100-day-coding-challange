@@ -3,7 +3,7 @@ using namespace std;
 
 void update(int arr[], int n)
 {
-    cout << "inside the function" << endl;
+    cout << "inside the function" << endcccdl;
 
     arr[0] = 120; 
 
