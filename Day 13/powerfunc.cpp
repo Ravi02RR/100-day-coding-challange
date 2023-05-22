@@ -10,9 +10,12 @@ int pow(int a, int b)
     }
     return ans;
 }
+
 int main()
 {
     int a, b;
     cin >> a >> b;
-    pow(a, b);
+    int result = pow(a, b);
+    cout << result << endl;
+    return 0;
 }
