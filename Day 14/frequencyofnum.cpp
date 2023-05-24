@@ -6,7 +6,7 @@ int main()
     int a[] = {1, 2, 3, 4, 5, 1, 2, 3, 4, 5};
     int size = sizeof(a) / sizeof(a[0]);
 
-    int frequency[10] = {0}; // Assuming the range of elements is from 1 to 10
+    int frequency[10] = {0}; 
 
     for (int i = 0; i < size; i++)
     {
