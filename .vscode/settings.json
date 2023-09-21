@@ -82,6 +82,7 @@
     "typeinfo": "cpp",
     "bitset": "cpp",
     "regex": "cpp",
-    "valarray": "cpp"
+    "valarray": "cpp",
+    "typeindex": "cpp"
   }
 }
