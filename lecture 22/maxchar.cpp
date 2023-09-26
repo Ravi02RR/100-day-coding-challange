@@ -35,3 +35,4 @@ int main() {
     cout << getMax(s) << endl;
     return 0;
 }
+
