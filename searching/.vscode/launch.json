@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": ".",
-      "program": "build/Debug/outDebug",
+      "cwd": "c:/Users/Ravi/Desktop/project exhibution/100-day-coding-challange/searching",
+      "program": "c:/Users/Ravi/Desktop/project exhibution/100-day-coding-challange/searching/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [

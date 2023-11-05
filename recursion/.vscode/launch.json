@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": ".",
-      "program": "build/Debug/outDebug",
+      "cwd": "c:/Users/Ravi/Desktop/project exhibution/100-day-coding-challange/recursion",
+      "program": "c:/Users/Ravi/Desktop/project exhibution/100-day-coding-challange/recursion/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
